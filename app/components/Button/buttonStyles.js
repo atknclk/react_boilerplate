@@ -5,7 +5,7 @@ const buttonStyles = css`
   box-sizing: border-box;
   padding: 0.25em 2em;
   text-decoration: none;
-  border-radius: 4px;
+  border-radius: 50%;
   -webkit-font-smoothing: antialiased;
   -webkit-touch-callout: none;
   user-select: none;
@@ -13,12 +13,18 @@ const buttonStyles = css`
   outline: 0;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: bold;
-  font-size: 16px;
-  border: 2px solid #41addd;
-  color: #41addd;
+  font-size: 22px;
+  border: 3px solid black;
+  color: black;
+
+  &:hover {
+    border: 5px solid black;
+    background: #000;
+    color: #fff;
+  }
 
   &:active {
-    background: #41addd;
+    background: #black;
     color: #fff;
   }
 `;

@@ -23,7 +23,7 @@ export default defineMessages({
   },
   trymeMessage: {
     id: `${scope}.tryme.message`,
-    defaultMessage: 'Show Github repositories by',
+    defaultMessage: 'Please enter a user id for show posts',
   },
   trymeAtPrefix: {
     id: `${scope}.tryme.atPrefix`,
